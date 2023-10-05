@@ -1,0 +1,18 @@
+import * as tslib_1 from "tslib";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { WheelSelectorComponent } from './wheel-selector/wheel-selector.component';
+let WheelSelectorModule = class WheelSelectorModule {
+};
+WheelSelectorModule = tslib_1.__decorate([
+    NgModule({
+        imports: [
+            CommonModule
+        ],
+        declarations: [WheelSelectorComponent],
+        exports: [WheelSelectorComponent]
+    })
+], WheelSelectorModule);
+export { WheelSelectorModule };
+export { WheelSelectorComponent };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2hlZWwtc2VsZWN0b3IubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQGh5cGVyYmxvYi9uZ3gtd2hlZWwtc2VsZWN0b3IvIiwic291cmNlcyI6WyJzcmMvYXBwL3doZWVsLXNlbGVjdG9yL3doZWVsLXNlbGVjdG9yLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFFL0MsT0FBTyxFQUFFLHNCQUFzQixFQUFtQixNQUFNLDJDQUEyQyxDQUFDO0FBU3BHLElBQWEsbUJBQW1CLEdBQWhDLE1BQWEsbUJBQW1CO0NBQUksQ0FBQTtBQUF2QixtQkFBbUI7SUFQL0IsUUFBUSxDQUFDO1FBQ1IsT0FBTyxFQUFFO1lBQ1AsWUFBWTtTQUNiO1FBQ0QsWUFBWSxFQUFFLENBQUMsc0JBQXNCLENBQUM7UUFDdEMsT0FBTyxFQUFFLENBQUMsc0JBQXNCLENBQUM7S0FDbEMsQ0FBQztHQUNXLG1CQUFtQixDQUFJO1NBQXZCLG1CQUFtQjtBQUVoQyxPQUFPLEVBQUUsc0JBQXNCLEVBQW1CLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcblxuaW1wb3J0IHsgV2hlZWxTZWxlY3RvckNvbXBvbmVudCwgUGlja2VyRGF0YU1vZGVsIH0gZnJvbSAnLi93aGVlbC1zZWxlY3Rvci93aGVlbC1zZWxlY3Rvci5jb21wb25lbnQnO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzOiBbXG4gICAgQ29tbW9uTW9kdWxlXG4gIF0sXG4gIGRlY2xhcmF0aW9uczogW1doZWVsU2VsZWN0b3JDb21wb25lbnRdLFxuICBleHBvcnRzOiBbV2hlZWxTZWxlY3RvckNvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgV2hlZWxTZWxlY3Rvck1vZHVsZSB7IH1cblxuZXhwb3J0IHsgV2hlZWxTZWxlY3RvckNvbXBvbmVudCwgUGlja2VyRGF0YU1vZGVsIH1cbiJdfQ==

@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "@hyperblob/ngx-wheel-selector@1.1.6",
+      "/Users/mrd/git/noctemhealth/noctem2/noctem-web"
+    ]
+  ],
+  "_from": "@hyperblob/ngx-wheel-selector@1.1.6",
+  "_id": "@hyperblob/ngx-wheel-selector@1.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-o0icWEymPxzLqEZ80SxraupibtXFR2ocMUYiDjjuvze2DtmF0CxRs0/KD6+5OeFGaWp8E9shoTtlMi8cTyBtBA==",
+  "_location": "/@hyperblob/ngx-wheel-selector",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@hyperblob/ngx-wheel-selector@1.1.6",
+    "name": "@hyperblob/ngx-wheel-selector",
+    "escapedName": "@hyperblob%2fngx-wheel-selector",
+    "scope": "@hyperblob",
+    "rawSpec": "1.1.6",
+    "saveSpec": null,
+    "fetchSpec": "1.1.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@hyperblob/ngx-wheel-selector/-/ngx-wheel-selector-1.1.6.tgz",
+  "_spec": "1.1.6",
+  "_where": "/Users/mrd/git/noctemhealth/noctem2/noctem-web",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "description": "[![NPM](https://nodei.co/npm/ngx-wheel-selector.png)](https://nodei.co/npm/ngx-wheel-selector/)",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.13.0",
+    "@angular/animations": "~7.2.0",
+    "@angular/cli": "~7.3.8",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.5.0",
+    "core-js": "^2.5.4",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~1.1.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^5.1.0",
+    "protractor": "~5.4.0",
+    "rxjs": "~6.3.3",
+    "ts-node": "~7.0.0",
+    "tslib": "^1.9.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2",
+    "zone.js": "~0.8.26"
+  },
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/hyperblob-ngx-wheel-selector.js",
+  "es2015": "fesm2015/hyperblob-ngx-wheel-selector.js",
+  "esm2015": "esm2015/hyperblob-ngx-wheel-selector.js",
+  "esm5": "esm5/hyperblob-ngx-wheel-selector.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/hyperblob-ngx-wheel-selector.js",
+  "fesm2015": "fesm2015/hyperblob-ngx-wheel-selector.js",
+  "fesm5": "fesm5/hyperblob-ngx-wheel-selector.js",
+  "license": "MIT",
+  "main": "bundles/hyperblob-ngx-wheel-selector.umd.js",
+  "metadata": "hyperblob-ngx-wheel-selector.metadata.json",
+  "module": "fesm5/hyperblob-ngx-wheel-selector.js",
+  "name": "@hyperblob/ngx-wheel-selector",
+  "private": false,
+  "sideEffects": false,
+  "typings": "hyperblob-ngx-wheel-selector.d.ts",
+  "version": "1.1.6",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "9.1.13",
+    "fesm2015": "9.1.13",
+    "typings": "9.1.13"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

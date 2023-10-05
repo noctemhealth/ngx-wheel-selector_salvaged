@@ -1,0 +1,4 @@
+import { WheelSelectorComponent, PickerDataModel } from './wheel-selector/wheel-selector.component';
+export declare class WheelSelectorModule {
+}
+export { WheelSelectorComponent, PickerDataModel };
